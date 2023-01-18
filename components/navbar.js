@@ -9,9 +9,9 @@ function Navbar() {
     <nav className="w-full shadow">
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
-          <div className="flex items-center justify-between py-3 md:py-5 md:block">
+          <div className="flex items-center justify-between md:block">
             <a href="javascript:void(0)">
-              <h2 className="text-2xl font-bold text-black">Job Anywhere</h2>
+              <Image src="/images/hirefast.png" height={80} width={80} />
             </a>
             <div className="md:hidden">
               <button
@@ -100,7 +100,7 @@ function Navbar() {
               </label>
               <ul
                 tabIndex={0}
-                className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52"
+                className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-white text-black rounded-box w-52"
               >
                 <li>
                   <a>Profile</a>

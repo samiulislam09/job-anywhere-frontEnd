@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <section className="bg-gray-500">
+    <section className="bg-blue-900">
       <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
         <a
           href="#"
